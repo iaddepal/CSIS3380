@@ -11,6 +11,7 @@ project 1 - A Random Quote Generator
  * `quotes` array 
 ***/
 
+//quotes array declared to store the quotes as object in the array
 var quotes = [
               {
                   quote:"Life is about making an impact, not making an income.",
@@ -45,7 +46,7 @@ var quotes = [
             ];
  
 /***
- * `getRandomQuote` function
+ * `getRandomQuote` function picks a random quote every time we click the button
 ***/
 function getRandomQuote(){
 
@@ -59,7 +60,7 @@ function getRandomQuote(){
 
 
 /***
- * `printQuote` function
+ * `printQuote` function 
 ***/
 
 function printQuote(){
